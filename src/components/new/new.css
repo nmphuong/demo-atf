@@ -1,0 +1,66 @@
+.page-container {
+	background: #16062c;
+	width: 100%;
+	min-height: 100vh;
+	overflow: hidden;
+}
+.page-content.new {
+	min-height: 700px;
+	width: 100%;
+}
+.page-content.new iframe {
+	display: block !important;
+	max-width: 600px !important;
+	width: 100% !important;
+	margin: auto !important;
+}
+.page-content.new .twitter-contain {
+	padding-top: 30px;
+}
+.page-content.new .twitter-contain .twitter {
+	max-height: 700px;
+	overflow-y: auto;
+}
+.page-content.new .twitter-contain .twitter::-webkit-scrollbar-track {
+	display: none;
+}
+
+.page-content.new .twitter-contain .twitter::-webkit-scrollbar {
+	display: none;
+}
+
+.page-content.new .twitter-contain .twitter::-webkit-scrollbar-thumb {
+	display: none;
+}
+
+.cusIconPlaned:before {
+	content: '';
+	background-image: url('../../public/images/Marketplace/background/background.svg') !important;
+	background-repeat: no-repeat !important;
+	background-size: contain !important;
+	background-position: -50px 150px !important;
+	filter: grayscale(1);
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 0.3;
+	z-index: -1;
+}
+
+@media screen and (max-width: 600px) {
+	.cus-page-main:before {
+		background-position: 0px 350px !important;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	.cus-page-main:before {
+		background-position: center !important;
+	}
+}
+
+.tab-asset-sale {
+	padding-top: 70px;
+}

@@ -1,0 +1,26 @@
+[
+	{
+		"name": "All",
+		"key": ""
+	},
+	{
+		"name": "Human",
+		"key": "HUMAN"
+	},
+	{
+		"name": "Beast",
+		"key": "BEAST"
+	},
+	{
+		"name": "Monster",
+		"key": "MONSTER"
+	},
+	{
+		"name": "Devil",
+		"key": "DEVIL"
+	},
+	{
+		"name": "Fairy",
+		"key": "FAIRY"
+	}
+]

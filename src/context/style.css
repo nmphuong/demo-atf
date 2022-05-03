@@ -1,0 +1,104 @@
+:root {
+	--toastify-color-light: #fff;
+	--toastify-color-dark: #121212;
+	--toastify-color-info: #3498db;
+	--toastify-color-success: #fff;
+	--toastify-color-warning: #fff;
+	--toastify-color-error: #fff;
+	--toastify-color-transparent: rgba(255, 255, 255, 0.7);
+
+	--toastify-icon-color-info: var(--toastify-color-info);
+	--toastify-icon-color-success: var(--toastify-color-success);
+	--toastify-icon-color-warning: var(--toastify-color-warning);
+	--toastify-icon-color-error: var(--toastify-color-error);
+
+	--toastify-toast-width: 320px;
+	--toastify-toast-background: #fff;
+	--toastify-toast-min-height: 64px;
+	--toastify-toast-max-height: 800px;
+	--toastify-font-family: sans-serif;
+	--toastify-z-index: 9999;
+
+	--toastify-text-color-light: #757575;
+	--toastify-text-color-dark: #fff;
+
+	--toastify-text-color-info: #fff;
+	--toastify-text-color-success: #fff;
+	--toastify-text-color-warning: #fff;
+	--toastify-text-color-error: #fff;
+
+	--toastify-spinner-color: #616161;
+	--toastify-spinner-color-empty-area: #e0e0e0;
+
+	--toastify-color-progress-light: linear-gradient(to right, #4cd964, #5ac8fa, #007aff, #34aadc, #5856d6, #ff2d55);
+
+	--toastify-color-progress-dark: #bb86fc;
+	--toastify-color-progress-info: var(--toastify-color-info);
+	--toastify-color-progress-success: var(--toastify-color-success);
+	--toastify-color-progress-warning: var(--toastify-color-warning);
+	--toastify-color-progress-error: var(--toastify-color-error);
+}
+.noti-box__content {
+	display: flex;
+	align-items: center;
+}
+.noti-box__content span.icon {
+	line-height: 0;
+	margin-right: 10px;
+}
+.noti-box__content span.icon svg {
+	font-size: 20px;
+	font-weight: 500;
+}
+.noti-box.success {
+	background-color: #10ca93;
+	color: white;
+	font-weight: 500;
+}
+.noti-box.danger {
+	display: block;
+	background-color: #f25767;
+	color: #fff;
+	font-weight: 500;
+	animation: showNoti 0.5s forwards;
+}
+.noti-box.warning {
+	display: block;
+	background-color: #ffc107;
+	color: black;
+	font-weight: 500;
+	animation: showNoti 0.5s forwards;
+}
+@keyframes showNoti {
+	from {
+		right: -100%;
+		opacity: 0;
+	}
+	to {
+		right: 20px;
+		opacity: 1;
+	}
+}
+
+.Toastify__toast--success {
+	background: linear-gradient(92.1deg, #43ff81 -38.16%, #0db4be 146.51%);
+}
+
+.Toastify__toast--error {
+	background: linear-gradient(92.1deg, #d92626 -38.16%, #df633e 146.51%);
+}
+
+.Toastify__toast--warning {
+	background: linear-gradient(92.1deg, #e7ab23 -38.16%, #e9d333 146.51%);
+}
+
+.Toastify__toast {
+	color: white;
+	font-size: 14px;
+	font-weight: 500;
+}
+
+.Toastify__close-button--light {
+	color: #fff;
+	opacity: 0.8;
+}

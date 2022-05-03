@@ -1,0 +1,43 @@
+iframe {
+	display: none;
+}
+
+.page-content p, .page-content span, .page-content a, .page-content div {
+	font-family: "Montserrat"!important;
+}
+
+.claim-tabs-account .ant-tabs-nav-wrap {
+	border-bottom: none !important;
+}
+.claim-tabs-content > .ant-tabs-nav::before {
+	border-bottom: none !important;
+}
+.claim-tabs-account .claim-tabs-content .ant-tabs-tab {
+	padding-left: 15px;
+	padding-right: 15px;
+	color: #fff !important;
+	font-size: 16px;
+	border: 1px solid #ffaf30;
+}
+.claim-tabs-account .claim-tabs-content .ant-tabs-tab-btn:nth-child(1) {
+	border-bottom-right-radius: 20px;
+	border-top-right-radius: 20px;
+}
+.claim-tabs-account .claim-tabs-content .ant-tabs-tab-active {
+	background: linear-gradient(289.1deg, #ffaf30 0.74%, #ffe94f 99.26%);
+	color: #502f03;
+	border-bottom: none !important;
+}
+.claim-tabs-content .ant-tabs-tab {
+	margin: 0 0 0 0 !important;
+}
+.claim-tabs-content .ant-tabs-ink-bar {
+	background: transparent !important;
+}
+.claim-tabs-account .claim-tabs-content .ant-tabs-tab-active .ant-tabs-tab-btn {
+	color: #502f03 !important;
+}
+
+.txt-hash {
+	margin-right: 5px;
+}

@@ -1,0 +1,120 @@
+.deposit-content {
+    margin-top: 20px;
+    width: 100%;
+}
+.deposit-content h3 {
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+.deposit-content h3 span {
+    color: #ffe668 !important;
+    letter-spacing: 1px;
+    text-shadow: 0px 0px 5px #fe9a03;
+}
+.form-deposit {
+    width: 100%;
+    text-align: center;
+    margin: auto;
+}
+.form-deposit .ant-form-inline .ant-form-item-with-help {
+    margin: 0;
+}
+.form-deposit .ant-form-item-with-help .ant-form-item-explain {
+    display: none;
+}
+.form-deposit .ant-form-inline {
+    display: inline-flex;
+    align-items: center;
+}
+.deposit-quantiy {
+    margin-right: 0px !important;
+}
+.form-deposit .deposit-quantiy input,
+.form-deposit .deposit-quantiy input:focus {
+    border: 1px solid #db9125;
+    background: #16062c;
+    color: #fff;
+    text-align: center;
+    border-radius: 0;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    height: 38px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.ant-form-item-has-error :not(.ant-input-disabled):not(.ant-input-borderless).ant-input {
+    background-color: transparent !important;
+}
+.form-deposit .btn-deposit-form {
+    margin-top: 10px;
+    text-align: center;
+    color: #fff !important;
+    width: auto;
+    min-width: 90px;
+    border: none;
+    font-weight: bold;
+    background: linear-gradient(289.1deg, #ffaf30 0.74%, #ffe94f 99.26%);
+    border-radius: 0;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    font-size: 16px;
+    height: 38px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: -17px;
+}
+.form-deposit .btn-deposit-form span {
+    background: -webkit-linear-gradient(180deg, #fe9a03 0%, #502f03 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.history-deposit h3 {
+    text-align: left;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    opacity: 0.8;
+}
+.status-deposit-warning {
+    color: yellow;
+    font-weight: bold;
+}
+.status-deposit-success {
+    color: green;
+    font-weight: bold;
+}
+.form-deposit .btn-deposit-form[disabled],
+.form-deposit .btn-deposit-form:disabled {
+    color: #779ea4 !important;
+    background: transparent !important;
+    border: 1px solid #779ea4 !important;
+    opacity: 0.9 !important;
+}
+.form-deposit .btn-deposit-form:hover {
+    cursor: pointer;
+}
+.text-war-depo {
+    color: #fff;
+    margin-bottom: 5px;
+    width: 100%;
+    text-align: center;
+    margin-top: 5px;
+    font-weight: 500;
+    letter-spacing: 0.5;
+    font-size: 15px;
+}
+
+.cus-tables table .ant-table-thead > tr > th {
+    white-space: nowrap;
+}
+
+@media (max-width: 768px) {
+    .form-deposit .deposit-quantiy input,
+    .form-deposit .deposit-quantiy input:focus {
+        width: 95px !important;
+    }
+}

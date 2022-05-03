@@ -1,0 +1,67 @@
+type IPoolConfig = {
+	sousId: number;
+	stakingToken: any;
+	earningToken: any;
+	contractAddress: string;
+	fees: number;
+	blockPeriod: number;
+	startBlock: number;
+	endBlock: number;
+	tokenPerBlock: number;
+	isFinished: boolean;
+	stakingLimit: number;
+	Inactive: boolean;
+	disUnstake: boolean;
+	disStake: boolean;
+	disHarvest: boolean;
+	typePool: number;
+	lockup: number;
+	isApproved: boolean;
+	stakeBalanceOfUser: number;
+	stakedZWZUser: number;
+	totalStakedToken: number;
+	totalStakedTokenNonPrice?: number;
+	unStakeAmount: number;
+	apr: number;
+	stakedZWZPrice: number;
+	stakeContract: any;
+	listSchedule: Array<IStakedDetail>;
+};
+
+type IStakeNFTConfig = {
+	sousId: number;
+	stakingToken: any;
+	earningToken: any;
+	contractAddress: string;
+	fees: number;
+	blockPeriod: number;
+	startBlock: number;
+	endBlock: number;
+	tokenPerBlock: number;
+	isFinished: boolean;
+	stakingLimit: number;
+	Inactive: boolean;
+	disUnstake: boolean;
+	disStake: boolean;
+	disHarvest: boolean;
+	typePool: number;
+	lockup: number;
+	isApproved: boolean;
+	stakeBalanceOfUser: number;
+	stakedZWZUser: number;
+	stakedZWZPrice: number;
+	unStakeAmount: number;
+	nftName: string;
+	nftId: number;
+	nftImg: string;
+	nftPrice: any;
+	isStaked: boolean;
+	nftAddress: string;
+	sign: any | null;
+};
+
+type IStakedDetail = {
+	amount: number;
+	startStakeBlock: number;
+	endStakeBlock: number;
+};

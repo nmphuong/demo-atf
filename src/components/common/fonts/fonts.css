@@ -1,0 +1,15 @@
+@font-face {
+	font-family: Rodfattwo-Demo;
+	src: url(../../../public/fonts/Rodfattwo-Demo.ttf);
+}
+@font-face {
+	font-family: Montserrat;
+	src: url(../../../public/fonts/Montserrat.ttf);
+}
+.menu-marketplace * {
+    font-family: Rodfattwo-Demo;
+    font-size: 15px!important;
+}
+.page-main * {
+    font-family: Montserrat!important;
+}

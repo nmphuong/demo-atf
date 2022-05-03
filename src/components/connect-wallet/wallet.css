@@ -1,0 +1,174 @@
+.btn-gold,
+.btn-gold:focus,
+.btn-gold:disabled {
+    background: url(../../public/images/bg-btn-gold.png) no-repeat;
+    background-position: top;
+    background-size: 100% 100%;
+    width: auto;
+    height: auto;
+    border: 1px solid transparent;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.01em;
+    padding: 10px 15px;
+}
+.btn-gold:hover,
+.btn-gold:disabled:hover {
+    box-shadow: 2px 2px 20px green;
+    background: url(../../public/images/bg-btn-gold.png) no-repeat;
+    background-position: top;
+    background-size: 100% 100%;
+
+    border: 1px solid transparent;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.01em;
+    padding: 10px 15px;
+}
+.btn-gold:disabled {
+    opacity: 0.5;
+}
+.btn-gold span {
+    color: #502f03;
+    font-family: "Montserrat" !important;
+}
+.btn-gold .icon-down {
+    font-size: 20px;
+    margin-right: 10px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.connect-wallet {
+    max-width: 565px;
+    width: 100% !important;
+}
+.connect-wallet .ant-modal-body {
+    /* max-width: 465px;
+    width: 100%;
+    margin-right: 0px !important; */
+    min-height: 420px;
+    padding-top: 25px !important;
+    min-height: 458px;
+}
+.connect-wallet .ant-modal-header {
+    background: transparent;
+    padding-bottom: 0px;
+    border-bottom: none;
+    padding-top: 11px;
+}
+.connect-wallet .ant-modal-title {
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 30px;
+    padding-top: 15px;
+    text-align: center;
+    color: #ffd44f;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+}
+.ant-modal-wrap {
+    background: rgba(29, 29, 29, 0.5);
+    -webkit-backdrop-filter: blur(5px) !important;
+    backdrop-filter: blur(5px) !important;
+}
+.wallet-button {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+.connect-wallet .ant-modal-content {
+    background: url(../../public/images/bg-connect.png) no-repeat !important;
+    background-position: center !important;
+    background-size: 100% 100% !important;
+    width: 100%;
+    height: 100%;
+}
+.connect-wallet .ant-modal-body .wallet-item {
+    min-height: 65px;
+    width: 70%;
+    margin: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 0px;
+    display: flex;
+}
+.connect-wallet .ant-modal-body .wallet-item:hover {
+    background: linear-gradient(0deg, #735721 -55.47%, rgba(56, 44, 21, 0) 125.78%);
+    border: 1px solid #ffe668;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+.connect-wallet .ant-modal-body .wallet-item a {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 65px;
+    letter-spacing: 1px;
+    color: #fffdfd;
+    padding-left: 10px;
+}
+.wallet-content {
+    padding: 40px 0px;
+}
+.wallet-content-account {
+    padding: 30px;
+    /* padding-top: 0px !important; */
+    min-height: 300px;
+}
+.wallet-account-address {
+    color: #ffd44f;
+    text-shadow: 2px 2px 3px rgb(0 0 0 / 50%);
+    font-size: 24px;
+    margin: 0;
+}
+.wallet-account {
+    display: flex;
+    color: #ffd44f;
+    text-shadow: 2px 2px 3px rgb(0 0 0 / 50%);
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 10px 0px 20px;
+}
+.link-address {
+    color: #ffd44f;
+    text-shadow: 2px 2px 3px rgb(0 0 0 / 50%);
+    font-size: 16px;
+}
+
+.link-address:hover {
+    color: #ffd44f;
+    text-shadow: 2px 2px 3px rgb(0 0 0 / 50%);
+}
+.gae-token {
+    height: 80px;
+    width: 80px;
+}
+.gae-name {
+    font-size: 24px;
+    font-weight: 600;
+    color: #ffd44f;
+    margin: 0;
+}
+.gae-balance {
+    font-size: 36px;
+    font-weight: 700;
+    color: rgb(253, 210, 132);
+    margin: 0;
+}
+.connect-wallet {
+    font-family: "Montserrat", sans-serif;
+}
+@media (max-width: 768px) {
+    .connect-wallet .ant-modal-body .wallet-item {
+        width: 100% !important;
+    }
+}
+@media screen and (max-width: 390px) {
+    .wallet-account {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

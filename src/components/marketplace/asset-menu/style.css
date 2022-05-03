@@ -1,0 +1,59 @@
+body {
+    font-family: Gemunu Libre;
+    font-size: 16px;
+    background-color: rgb(22,6,44);
+}
+.asset-menu .asset-menu-list {
+    background: transparent !important;
+    text-align: center;
+    width: 100%;
+    display: inherit;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    line-height: 36px;
+    border-bottom: none;
+}
+.asset-menu .asset-menu-list .ant-menu-item-selected::after,
+.asset-menu .asset-menu-list .ant-menu-item:hover::after {
+    border-bottom: none !important;
+}
+.asset-menu .asset-menu-list .ant-menu-item {
+    width: 100px;
+    height: 38px;
+    border-radius: 17.5px;
+    padding: 5px 15px !important;
+    line-height: 0px;
+}
+.asset-menu .asset-menu-list .ant-menu-item a {
+    font-family: Gemunu Libre;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 15px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #ffffff !important;
+}
+.asset-menu .asset-menu-list .ant-menu-item a img {
+    width: 30px;
+    height: 30px;
+}
+.asset-menu .asset-menu-list .ant-menu-item-selected {
+    background: #eab041;
+    border-radius: 17.5px;
+    padding: 5px 15px !important;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+.asset-menu .asset-menu-list .ant-menu-item:hover,
+.asset-menu .asset-menu-list .ant-menu-item:focus {
+    background: #eab041;
+    border-radius: 17.5px;
+    padding: 5px 15px !important;
+}
+.asset-img {
+    width: 100%;
+}
+.asset-img img {
+    width: 100%;
+}

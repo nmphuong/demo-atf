@@ -1,0 +1,26 @@
+.none-data {
+	width: 100%;
+	text-align: center;
+	margin-top: 45px;
+	height: 100%;
+}
+.nodata .ant-empty-description {
+	color: #fff;
+}
+.none-data img {
+	height: 120px;
+}
+.mystery-box .none-data {
+	margin: 0 !important;
+	min-height: 500px;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.noData {
+	text-align: left;
+	font-weight: 600;
+	font-size: 30px;
+}

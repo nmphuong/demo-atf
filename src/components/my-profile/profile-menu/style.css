@@ -1,0 +1,63 @@
+body {
+    font-family: Gemunu Libre;
+    font-size: 16px;
+    background-color: rgb(22,6,44);
+}
+.profile-menu .profile-menu-list {
+    background: transparent !important;
+    text-align: center;
+    width: 100%;
+    display: inherit;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    line-height: 36px;
+    border-bottom: none;
+}
+.profile-menu .profile-menu-list .ant-menu-item-selected::after,
+.profile-menu .profile-menu-list .ant-menu-item:hover::after {
+    border-bottom: none !important;
+}
+.profile-menu .profile-menu-list .ant-menu-item {
+    width: auto;
+    height: 38px;
+    border-radius: 17.5px;
+    padding: 5px 15px !important;
+}
+.profile-menu .profile-menu-list .ant-menu-item a {
+    font-family: Gemunu Libre;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #ffffff;
+}
+.profile-menu .profile-menu-list .ant-menu-item a img {
+    width: 30px;
+    height: 30px;
+}
+.profile-menu .profile-menu-list .ant-menu-item-selected {
+    background: #eab041;
+    border-radius: 17.5px;
+    padding: 5px 15px !important;
+}
+.profile-menu .profile-menu-list .ant-menu-item:hover,
+.profile-menu .profile-menu-list .ant-menu-item:focus {
+    background: #eab041;
+    border-radius: 17.5px;
+    padding: 5px 15px !important;
+}
+.asset-img {
+    width: 100%;
+}
+.asset-img img {
+    width: 100%;
+}
+.profile-menu .profile-menu-list span.ant-menu-title-content {
+    display: flex;
+    align-items: center;
+}
+
+.ant-menu-title-content:after {
+	border: none!important;
+}

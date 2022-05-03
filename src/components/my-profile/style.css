@@ -1,0 +1,144 @@
+body {
+    font-family: Gemunu Libre;
+    font-size: 16px;
+    background-color: rgb(22, 6, 44);
+}
+
+.asset-block {
+    background: transparent;
+}
+.asset-content {
+    width: 100%;
+}
+.cus-tables {
+    overflow-x: auto;
+    border: 1px solid #db9125;
+    border-radius: 10px;
+}
+.cus-tables .ant-empty-description {
+    color: #fff;
+}
+.cus-tables table .ant-table-thead > tr > th {
+    background: #16062c;
+    border-bottom: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+}
+.cus-tables table .ant-table-tbody > tr > td {
+    border-bottom: 1px solid #779ea4 !important;
+    background: #16062c !important;
+    color: #fff !important;
+    font-size: 16px;
+}
+.cus-tables table .item-btn-claim {
+    text-align: center;
+    color: #fff !important;
+    width: auto;
+    border: none;
+    font-weight: bold;
+    background: linear-gradient(95.68deg, #16dfec 1.66%, #008d96 100%);
+    border-radius: 10px;
+    font-size: 16px;
+    height: 35px;
+}
+.cus-tables table .item-btn-claim:hover {
+    color: #779ea4;
+    background: transparent;
+    border: 1px solid #779ea4 !important;
+}
+.btn-gold-claim,
+.btn-gold-claim:focus {
+    background: url(../../public/images/bg-btn-gold.png) no-repeat;
+    background-position: top;
+    background-size: 100% 100%;
+    width: auto;
+    height: auto;
+    border: 1px solid transparent;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.01em;
+    padding: 5px 15px;
+    border-radius: 20px;
+}
+/* .btn-gold-claim:hover {
+    box-shadow: 2px 2px 20px green;
+    background: url(../../public/images/bg-btn-gold.png) no-repeat;
+    background-position: top;
+    background-size: 100% 100%;
+    width: auto;
+    height: auto;
+    border: 1px solid transparent;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.01em;
+    padding: 5px 15px;
+} */
+.btn-gold-claim span {
+    color: #502f03;
+}
+.btn-gold-claim:disabled {
+    opacity: 0.5;
+}
+
+.balance-type-slt {
+    background: transparent !important;
+    color: #fff !important;
+    max-width: 110px !important;
+}
+.hero-select {
+    margin-top: 10px;
+}
+.balance-type-slt .ant-select-selector {
+    background-color: transparent !important;
+    border: 1px solid #db9125 !important;
+    height: 40px !important;
+    border-radius: 5px;
+    max-width: 110px !important;
+}
+.balance-type-slt .ant-select-arrow {
+    color: #fff !important;
+}
+.balance-type-slt .ant-select-selection-item {
+    line-height: 38px !important;
+}
+.balance-type-slt .ant-select-selection-item {
+    line-height: 40px !important;
+    color: #fff !important;
+    font-weight: 600;
+}
+
+
+.cusIconPlaned:before {
+	content: '';
+	background-image: url('../../public/images/Marketplace/background/background.svg') !important;
+	background-repeat: no-repeat !important;
+	background-size: contain !important;
+	background-position: -50px 150px !important;
+	filter: grayscale(1);
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 0.3;
+	z-index: -1;
+}
+
+@media screen and (max-width: 600px) {
+	.cus-page-main:before {
+		background-position: 0px 350px !important;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	.cus-page-main:before {
+		background-position: center !important;
+	}
+}
+
+.tab-asset-sale {
+	padding-top: 70px;
+}

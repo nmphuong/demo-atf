@@ -1,0 +1,30 @@
+[
+	{
+		"name": "All",
+		"key": ""
+	},
+	{
+		"name": "Hero",
+		"key": "HERO"
+	},
+	{
+		"name": "Weapon",
+		"key": "WEAPON"
+	},
+	{
+		"name": "Head",
+		"key": "HEAD"
+	},
+	{
+		"name": "Shirt",
+		"key": "SHIRT"
+	},
+	{
+		"name": "Foot",
+		"key": "FOOT"
+	},
+	{
+		"name": "Belt",
+		"key": "BELT"
+	}
+]

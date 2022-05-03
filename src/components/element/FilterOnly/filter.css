@@ -1,0 +1,109 @@
+.filter-box {
+	display: flex;
+	align-items: center;
+	justify-content: end;
+}
+.btn-filter {
+	width: 115px;
+	height: 40px;
+	background: #152631;
+	border: 1px solid #17f1ff;
+	box-sizing: border-box;
+	border-radius: 5px;
+	/* float: left; */
+}
+.btn-filter a {
+	line-height: 40px;
+	padding-left: 20px;
+	line-height: 40px;
+	color: #5dd5dd;
+	font-size: 18px;
+	font-family: 'Gemunu Libre', sans-serif;
+	font-weight: 700;
+}
+.filter-box .clear {
+	line-height: 40px;
+	padding-right: 10px;
+	width: 50px;
+	/* float: left; */
+}
+.ant-dropdown {
+	width: 160px !important;
+
+	box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.48);
+	border-radius: 5px !important;
+}
+.ant-dropdown-menu {
+	background: #14232f !important;
+}
+.ant-dropdown-menu li span {
+	color: #fff;
+}
+.ant-dropdown-menu li:hover {
+	background-color: #0e1a22 !important;
+}
+.filter-dot-ss {
+	background: url(../../../public/images/dot-ss.png) no-repeat;
+	background-position: left;
+	background-position: 40px;
+}
+.filter-dot-s {
+	background: url(../../../public/images/dot-s.png) no-repeat;
+	background-position: left;
+	background-position: 40px;
+}
+.filter-dot-a {
+	background: url(../../../public/images/dot-a.png) no-repeat;
+	background-position: left;
+	background-position: 40px;
+}
+.filter-dot-b {
+	background: url(../../../public/images/dot-b.png) no-repeat;
+	background-position: left;
+	background-position: 40px;
+}
+.filter-dot-c {
+	background: url(../../../public/images/dot-c.png) no-repeat;
+	background-position: left;
+	background-position: 40px;
+}
+.ant-dropdown-menu li .cate-checkbox {
+	margin-right: 35px;
+	margin-top: 5px;
+}
+.ant-dropdown-menu li .ant-dropdown-menu-title-content span {
+	margin-top: 5px;
+}
+.btn-filter .icon {
+	display: none;
+}
+@media screen and (max-width: 768px) {
+	.filter-box {
+		margin-top: 15px;
+		/* margin-right: 10px; */
+		/* float: left !important; */
+	}
+	.input-search {
+		width: 100% !important;
+	}
+	.filter-box .clear {
+		display: none;
+	}
+	.btn-filter a {
+		display: none;
+	}
+	.btn-filter {
+		width: 40px !important;
+		height: 40px !important;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	.btn-filter .icon {
+		display: block;
+	}
+	.btn-filter .icon svg {
+		color: #17f1ff;
+		font-size: 21px;
+	}
+}

@@ -1,0 +1,98 @@
+{
+	"name": "marketplace-zwz-website",
+	"version": "0.1.0",
+	"private": true,
+	"dependencies": {
+		"@ant-design/icons": "4.7.0",
+		"@ethersproject/providers": "^5.5.0",
+		"@fortawesome/fontawesome-svg-core": "1.2.36",
+		"@fortawesome/free-solid-svg-icons": "5.15.4",
+		"@fortawesome/react-fontawesome": "0.1.16",
+		"@loadable/component": "^5.15.2",
+		"@reduxjs/toolkit": "1.6.2",
+		"@testing-library/jest-dom": "5.16.0",
+		"@testing-library/react": "11.2.7",
+		"@testing-library/user-event": "12.8.3",
+		"@types/jest": "26.0.24",
+		"@types/node": "12.20.36",
+		"@types/react": "17.0.37",
+		"@types/react-dom": "17.0.11",
+		"@types/react-router-dom": "^5.3.3",
+		"@types/react-slick": "0.23.8",
+		"@types/slick-carousel": "1.6.37",
+		"@types/styled-components": "5.1.24",
+		"@walletconnect/web3-provider": "^1.7.5",
+		"@web3-react/abstract-connector": "^6.0.7",
+		"@web3-react/core": "^6.1.9",
+		"@web3-react/injected-connector": "^6.0.7",
+		"@web3-react/walletconnect-connector": "^6.2.8",
+		"add": "2.0.6",
+		"antd": "4.17.2",
+		"axios": "0.24.0",
+		"big-number": "2.0.0",
+		"bignumber.js": "9.0.2",
+		"dayjs": "1.10.7",
+		"env-cmd": "10.1.0",
+		"ethers": "^5.5.2",
+		"lodash": "^4.17.21",
+		"node-sass": "6.0.1",
+		"qrcode.react": "1.0.1",
+		"react": "17.0.2",
+		"react-copy-to-clipboard": "5.0.4",
+		"react-countdown": "2.3.2",
+		"react-countup": "^6.2.0",
+		"react-device-detect": "2.1.2",
+		"react-dom": "17.0.2",
+		"react-notifications-component": "3.1.0",
+		"react-on-images-loaded": "2.2.5",
+		"react-redux": "7.2.6",
+		"react-router-dom": "5.3.0",
+		"react-scripts": "4.0.3",
+		"react-slick": "0.28.1",
+		"react-sweet-state": "2.5.2",
+		"react-toastify": "8.1.0",
+		"react-twitter-embed": "^4.0.4",
+		"react-typed": "^1.2.0",
+		"react-visibility-sensor": "^5.1.1",
+		"slick-carousel": "1.8.1",
+		"styled-components": "5.3.3",
+		"typescript": "4.5.2",
+		"web-vitals": "1.1.2",
+		"web3": "^1.6.0",
+		"yall-js": "3.2.0",
+		"yarn": "1.22.17"
+	},
+	"scripts": {
+		"start": "env-cmd -f .env.development react-scripts start",
+		"build:dev": "env-cmd -f .env.development react-scripts build",
+		"build:staging": "env-cmd -f .env.staging react-scripts build",
+		"build": "env-cmd -f .env.production react-scripts build",
+		"test": "react-scripts test",
+		"eject": "react-scripts eject"
+	},
+	"eslintConfig": {
+		"extends": [
+			"react-app",
+			"react-app/jest"
+		]
+	},
+	"browserslist": {
+		"production": [
+			">0.2%",
+			"not dead",
+			"not op_mini all"
+		],
+		"development": [
+			"last 1 chrome version",
+			"last 1 firefox version",
+			"last 1 safari version"
+		]
+	},
+	"devDependencies": {
+		"@types/react-copy-to-clipboard": "^5.0.2",
+		"@types/react-notifications-component": "^3.1.1"
+	},
+	"resolutions": {
+		"@types/react": "17.0.40"
+	}
+}

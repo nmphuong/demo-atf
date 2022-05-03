@@ -1,0 +1,382 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@300&display=swap');
+
+@font-face {
+	font-family: Rodfattwo-Demo;
+	src: url(../../../public/fonts/Rodfattwo-Demo.ttf);
+}
+
+@font-face {
+	font-family: Agencyfb;
+	src: url(../../../public/fonts/agency-fb-12.ttf);
+}
+
+@font-face {
+	font-family: Golden_Silver;
+	src: url(../../../public/fonts/Golden_Silver.ttf);
+}
+@font-face {
+	font-family: Monotype Corsiva;
+	src: url(../../../public/fonts/mtcorsva.ttf);
+}
+body {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	font-weight: 600;
+}
+.header {
+	height: 70px;
+	width: 100%;
+	box-shadow: 0px 4px 10px rgb(0 0 0 / 20%);
+	position: absolute;
+	top: 0px;
+}
+.header .ant-menu-horizontal {
+	height: 70px;
+	width: 100%;
+	background: linear-gradient(270deg, #1e1f28 8.54%, rgba(30, 31, 40, 0) 71.42%);
+	box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2) !important;
+	border: 0;
+	align-items: center;
+	line-height: 46px;
+	position: absolute;
+	top: 0px;
+	z-index: 9999;
+}
+
+.btnConnect {
+	color: #000000;
+	width: 180px;
+	height: 40px;
+	background: linear-gradient(92.1deg, #43ff81 -38.16%, #0db4be 146.51%);
+	border-radius: 5px;
+	font-weight: 700;
+	border: none;
+	color: #fff;
+}
+.btnConnect:focus {
+	background: linear-gradient(92.1deg, #43ff81 -38.16%, #0db4be 146.51%) !important;
+	color: #fff !important;
+}
+.btnConnect:hover {
+	background-color: #14232f;
+	width: 180px;
+	height: 40px;
+	color: #5dd5dd;
+	border: 1px solid #5dd5dd;
+}
+.ant-menu-horizontal li.connect-wallet {
+	margin-left: 0px !important;
+}
+
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item:hover::after {
+	border-bottom: 3px solid #5dd5dd !important;
+}
+.totalBalance {
+	background: #0e1a22;
+	border-radius: 5px;
+	width: auto;
+	max-width: 120px;
+	height: 40px;
+	color: #fff;
+	text-align: center;
+	padding-bottom: 10px;
+	padding-right: 10px;
+}
+.totalBalance img {
+	margin-right: 5px;
+	max-width: 30px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+}
+
+.learnMore {
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 20px;
+	/* identical to box height */
+	letter-spacing: 0.025em;
+	color: #f9c801;
+}
+
+.ant-menu-light .ant-menu-item:hover,
+.ant-menu-light .ant-menu-item-active,
+.ant-menu-light .ant-menu:not(.ant-menu-inline) .ant-menu-submenu-open,
+.ant-menu-light .ant-menu-submenu-active,
+.ant-menu-light .ant-menu-submenu-title:hover {
+	color: #fff !important;
+}
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item:hover::after {
+	border-bottom: 3px solid #5dd5dd !important;
+}
+.ant-menu-horizontal:not(.ant-menu-dark) > .total-balance:hover::after {
+	border-bottom: none !important;
+	padding: unset;
+}
+
+.ant-menu-horizontal:not(.ant-menu-dark) > .connect-wallet:hover::after {
+	border-bottom: none !important;
+	padding: unset;
+}
+.logoMenu {
+	margin-right: 50px;
+}
+.ant-menu-horizontal > .ant-menu-item::after {
+	bottom: -11px;
+}
+.ant-menu-overflow li:first-child:after {
+	display: none;
+}
+.ant-menu-overflow li:nth-child(7):after {
+	display: none;
+}
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item {
+	padding: 0 15px !important;
+}
+.ant-menu-title-content a {
+	color: #fff;
+	position: relative;
+	display: block;
+	margin: 0;
+	padding: 0 5px;
+	white-space: nowrap;
+	cursor: pointer;
+	transition: background 0.3s, padding 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+.header .ant-menu-horizontal > .ant-menu-item a {
+	color: #fff;
+	font-weight: 600;
+}
+.ant-menu-horizontal > .ant-menu-item a:hover {
+	color: #fff;
+}
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-selected::after {
+	border-bottom: 3px solid #5dd5dd !important;
+}
+.ant-menu-horizontal:not(.ant-menu-dark) > .connect-wallet::after {
+	border-bottom: none !important;
+	padding: unset;
+}
+
+.main-color-text {
+	color: #fac800 !important;
+}
+
+.ant-modal-wrap {
+	background: rgba(29, 29, 29, 0.5);
+	backdrop-filter: blur(5px);
+	/* z-index: 2000; */
+}
+.ant-modal-close-x {
+	display: none;
+}
+.noti-out-text {
+	font-weight: 500;
+	text-align: center;
+	font-size: 22px;
+}
+.noti-out-button {
+	text-align: center;
+	display: flex;
+	justify-content: center;
+}
+
+.hide-menu {
+	display: none;
+}
+.show-mobile {
+	display: block;
+}
+.header-mobile {
+	display: none;
+}
+
+@media screen and (max-width: 1024px) {
+	.header-desktop {
+		display: none !important;
+	}
+	.header-mobile {
+		display: flex;
+		padding: 15px;
+		justify-content: space-between;
+		align-items: center;
+		background: linear-gradient(270deg, #1e1f28 8.54%, rgb(113 133 126 / 32%) 71.42%);
+		position: relative;
+		z-index: 1001;
+		border-bottom: 1px solid #4a6568;
+	}
+	.header-mobile .ant-btn-primary {
+		background: transparent;
+		border: 0px solid transparent;
+		font-size: 18px;
+	}
+	.header-mobile .ant-btn-primary:hover,
+	.header-mobile .ant-btn-primary:focus {
+		background: transparent;
+		border: 0px solid transparent;
+	}
+	.header-mobile .ant-btn {
+		font-size: 20px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.slider-banner .slider-item .dowload-group {
+		width: 90% !important;
+	}
+	.connect-wallet-title {
+		font-size: 25px;
+	}
+	.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item {
+		padding: 0 !important;
+	}
+	.logoMenu {
+		margin-right: 15px !important;
+	}
+	.ant-menu-submenu-popup > .ant-menu {
+		background-color: #14232f !important;
+	}
+	.header-desktop {
+		display: none !important;
+	}
+
+	.header-mobile .ant-btn-primary {
+		background: transparent;
+		border: 0px solid transparent;
+		font-size: 18px;
+	}
+	.header-mobile .ant-btn-primary:hover,
+	.header-mobile .ant-btn-primary:focus {
+		background: transparent;
+		border: 0px solid transparent;
+	}
+	.header-mobile .ant-btn {
+		font-size: 20px;
+	}
+	.menu-mobile {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		z-index: 998;
+	}
+	.header-mobile .header-right {
+		position: relative;
+		z-index: 999;
+	}
+	.menu-mobile .ant-menu-root {
+		height: 100vh;
+		background: linear-gradient(270deg, #1e1f28 8.54%, rgb(42 120 95 / 79%) 71.42%);
+		margin-top: 75px;
+		position: fixed;
+	}
+	.menu-mobile .ant-menu-dark.ant-menu-inline .ant-menu-item {
+		position: relative;
+		z-index: 1000;
+		padding-left: 15px !important;
+	}
+	.menu-mobile .ant-menu-dark .ant-menu-item > span > a {
+		font-weight: bold;
+		padding-left: 0;
+	}
+	.menu-mobile .ant-menu-dark.ant-menu-dark:not(.ant-menu-horizontal) .ant-menu-item-selected {
+		background: #14232f !important;
+	}
+	.header-mobile {
+		position: fixed;
+		width: 100%;
+		top: 0;
+	}
+	.menu-mobile .ant-menu-submenu .ant-menu-title-content {
+		font-size: 15px;
+		color: #ffffffa6 !important;
+		margin-left: 5px;
+		padding-left: 0;
+	}
+	.menu-mobile .ant-menu-submenu-title {
+		padding-left: 15px !important;
+	}
+	.menu-mobile .ant-menu-submenu-title svg {
+		color: #ffffffa6 !important;
+	}
+}
+.list-submenu {
+	line-height: 0;
+}
+.list-submenu svg {
+	color: white;
+	font-size: 20px;
+}
+.ant-menu-submenu-popup > .ant-menu {
+	/* color: #14232f !important; */
+	background: #14232f !important;
+	color: white !important;
+}
+.ant-menu-submenu .ant-menu-title-content {
+	color: #fff;
+}
+.ant-menu-submenu-open .ant-menu-submenu-title {
+	border-left: none !important;
+	background: transparent !important;
+	background-color: transparent !important;
+}
+.ant-menu-submenu:hover .ant-menu-title-content,
+.ant-menu-submenu:hover svg {
+	color: white !important;
+	transition: 0.3s;
+}
+
+.ant-menu-sub .ant-menu-title-content a {
+	color: #fff !important;
+	display: inline-block;
+}
+
+.ant-menu-submenu-title svg {
+	color: #779ea4;
+}
+.ant-menu-item .sub-img-icon {
+	width: 25px;
+	margin-right: 10px;
+}
+.ant-menu-horizontal > .ant-menu-item::after,
+.ant-menu-horizontal > .ant-menu-submenu::after {
+	bottom: -10px;
+}
+.ant-menu-submenu-selected::after {
+	border-bottom: 3px solid #5dd5dd !important;
+}
+.ant-menu-item-only-child:hover {
+	background: #0a312b;
+}
+.mr-20 {
+	margin-right: 15px;
+}
+.pt-70 {
+	padding-top: 70px;
+}
+
+.btn-link {
+	font-weight: 600;
+	font-size: 22px;
+	line-height: 27px;
+	text-align: center;
+	letter-spacing: 0.01em;
+	color: #ffe668;
+	text-shadow: 0px 0px 5px #000000;
+	padding: 10px 45px;
+	background: #121212;
+	border: 1px solid #ffe668;
+	box-sizing: border-box;
+	border-radius: 5px;
+	margin-bottom: 15px;
+	display: inline-block;
+}
+.btn-link:hover {
+	color: #fff;
+	background: #ffe668;
+}
+
+.ant-layout-content {
+	background-color: rgb(22, 6, 44);
+}

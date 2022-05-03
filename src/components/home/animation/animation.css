@@ -1,0 +1,10 @@
+[cus-fade="right"] > *:first-child {
+    transform: translateX(-80vw);
+    transition: all 0.7s;
+}
+[cus-fade="left"] > *:first-child {
+    transform: translateX(80vw);
+    transition: all 0.7s;
+}
+
+

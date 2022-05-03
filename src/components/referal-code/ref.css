@@ -1,0 +1,45 @@
+.wrap-ref-profile {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.ref-content {
+    margin-top: 15px;
+    width: 100%;
+}
+.ref-content h3 {
+    color: #ffe668 !important;
+    text-shadow: 0px 0px 5px #fe9a03;
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 50px;
+}
+.ref-block {
+    max-width: 600px;
+    width: 100%;
+    margin-top: 40px;
+    margin: auto;
+    border-radius: 5px;
+    border: 1px solid #ffe668;
+    height: auto;
+}
+.ref-block p {
+    color: #ffe668 !important;
+    text-align: center;
+    line-height: normal;
+    margin-bottom: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    letter-spacing: 1px;
+}
+.ref-block p span {
+    margin-right: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .wrap-ref-profile {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
